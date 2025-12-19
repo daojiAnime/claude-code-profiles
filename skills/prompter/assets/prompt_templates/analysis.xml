@@ -1,0 +1,41 @@
+<analysis_task>
+  <subject>
+    [分析对象]
+  </subject>
+
+  <dimensions>
+    请从以下维度分析:
+
+    <dimension name="维度1">
+      [具体说明]
+    </dimension>
+
+    <dimension name="维度2">
+      [具体说明]
+    </dimension>
+
+    <dimension name="维度3">
+      [具体说明]
+    </dimension>
+  </dimensions>
+
+  <criteria>
+    评判标准:
+    - 标准 1
+    - 标准 2
+    - 标准 3
+  </criteria>
+
+  <output>
+    <format>
+      输出格式: [描述期望的格式]
+    </format>
+
+    <includes>
+      必须包含:
+      - 要素 1
+      - 要素 2
+      - 要素 3
+    </includes>
+  </output>
+</analysis_task>

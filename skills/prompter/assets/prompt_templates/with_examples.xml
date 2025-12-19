@@ -1,0 +1,27 @@
+<task>
+  <description>
+    [任务描述]
+  </description>
+
+  <examples>
+    <example id="1">
+      <input>[示例输入 1]</input>
+      <output>[期望输出 1]</output>
+    </example>
+
+    <example id="2">
+      <input>[示例输入 2]</input>
+      <output>[期望输出 2]</output>
+    </example>
+
+    <example id="3">
+      <input>[示例输入 3]</input>
+      <output>[期望输出 3]</output>
+    </example>
+  </examples>
+
+  <instruction>
+    现在处理以下输入:
+    [实际输入]
+  </instruction>
+</task>

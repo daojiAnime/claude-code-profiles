@@ -1,0 +1,36 @@
+<code_generation>
+  <language>[编程语言]</language>
+
+  <task>
+    [代码任务描述]
+  </task>
+
+  <requirements>
+    <functional>
+      功能要求:
+      - 功能 1
+      - 功能 2
+    </functional>
+
+    <technical>
+      技术要求:
+      - 使用 [框架/库]
+      - 遵循 [编码规范]
+      - 包含类型提示/文档
+    </technical>
+
+    <quality>
+      质量要求:
+      - 错误处理
+      - 边界情况
+      - 性能考虑
+    </quality>
+  </requirements>
+
+  <example_usage>
+    使用示例:
+    ```
+    [展示如何使用生成的代码]
+    ```
+  </example_usage>
+</code_generation>

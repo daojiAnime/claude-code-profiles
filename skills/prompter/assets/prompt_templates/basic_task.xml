@@ -1,0 +1,26 @@
+<task>
+  <objective>
+    [清晰描述要完成的任务]
+  </objective>
+
+  <context>
+    [提供必要的背景信息和上下文]
+  </context>
+
+  <requirements>
+    [列出具体要求]
+    - 要求 1
+    - 要求 2
+    - 要求 3
+  </requirements>
+
+  <constraints>
+    [说明限制条件]
+    - 约束 1
+    - 约束 2
+  </constraints>
+
+  <output_format>
+    [说明期望的输出格式]
+  </output_format>
+</task>
