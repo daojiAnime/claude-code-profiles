@@ -118,7 +118,7 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 | `seo-audit` | 网站 SEO 审计和分析 |
 | `seo-specialist` | SEO 内容写作和优化 |
 
-### 使用��法
+### 使用方法
 
 1. 克隆本仓库
 2. 将 `CLAUDE.md` 复制到项目根目录，或复制到 `~/.claude/CLAUDE.md` 作为全局配置
@@ -138,4 +138,4 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 
 ## License
 
-MIT
+[MIT](LICENSE)
