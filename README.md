@@ -16,6 +16,7 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 - **Commands** - Custom slash commands for common development tasks
 - **Output Styles** - Preset response styles for different scenarios (engineering mode, mentor mode, etc.)
 - **Skills** - Specialized knowledge modules that extend Claude's capabilities
+- **Docs** - Technical knowledge base and reference guides
 
 ### Structure
 
@@ -24,6 +25,9 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 ├── commands/           # Custom commands
 │   ├── catchup.md      # Review changes in current branch
 │   └── pr.md           # Prepare and create pull requests
+├── docs/               # Technical knowledge base
+│   ├── commit-guide.md      # Git commit specification
+│   └── onnx-build-guide.md  # ONNX ecosystem build guide
 ├── output-styles/      # Output style presets
 │   ├── Linus-mode.md   # Linus Torvalds engineering style
 │   └── tech-mode.md    # Tech mentor mode
@@ -63,6 +67,13 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 | `seo-audit` | Website SEO audit and analysis |
 | `seo-specialist` | SEO content writing and optimization |
 
+### Docs
+
+| Document | Description |
+|----------|-------------|
+| `commit-guide` | Git commit specification with emoji-prefixed conventional commits |
+| `onnx-build-guide` | ONNX ecosystem compilation guide for macOS/Linux/Windows |
+
 ### Usage
 
 1. Clone this repository
@@ -70,6 +81,7 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 3. Copy desired commands to `~/.claude/commands/`
 4. Copy desired skills to `~/.claude/skills/`
 5. Copy desired output styles to `~/.claude/output-styles/`
+6. Copy desired docs to `~/.claude/docs/`
 
 ### Configuration Highlights
 
@@ -94,6 +106,7 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 - **Commands** - 常见开发任务的自定义斜杠命令
 - **Output Styles** - 预设的响应风格（工程模式、导师模式等）
 - **Skills** - 扩展 Claude 能力的专业知识模块
+- **Docs** - 技术知识库和参考指南
 
 ### 目录结构
 
@@ -102,6 +115,9 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 ├── commands/           # 自定义命令
 │   ├── catchup.md      # 查看当前分支的变更
 │   └── pr.md           # 准备并创建 Pull Request
+├── docs/               # 技术知识库
+│   ├── commit-guide.md      # Git 提交规范
+│   └── onnx-build-guide.md  # ONNX 生态系统编译指南
 ├── output-styles/      # 输出风格预设
 │   ├── Linus-mode.md   # Linus Torvalds 工程风格
 │   └── tech-mode.md    # 技术导师模式
@@ -141,6 +157,13 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 | `seo-audit` | 网站 SEO 审计和分析 |
 | `seo-specialist` | SEO 内容写作和优化 |
 
+### 文档
+
+| 文档 | 描述 |
+|------|------|
+| `commit-guide` | Git 提交规范，使用 emoji 前缀的约定式提交 |
+| `onnx-build-guide` | ONNX 生态系统编译指南，适用于 macOS/Linux/Windows |
+
 ### 使用方法
 
 1. 克隆本仓库
@@ -148,6 +171,7 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 3. 将所需命令复制到 `~/.claude/commands/`
 4. 将所需技能复制到 `~/.claude/skills/`
 5. 将所需输出风格复制到 `~/.claude/output-styles/`
+6. 将所需文档复制到 `~/.claude/docs/`
 
 ### 配置亮点
 
