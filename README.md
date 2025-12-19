@@ -14,6 +14,7 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 
 - **CLAUDE.md** - Global configuration file defining workflows, code standards, and MCP usage guidelines
 - **Commands** - Custom slash commands for common development tasks
+- **Output Styles** - Preset response styles for different scenarios (engineering mode, mentor mode, etc.)
 - **Skills** - Specialized knowledge modules that extend Claude's capabilities
 
 ### Structure
@@ -23,6 +24,9 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 ├── commands/           # Custom commands
 │   ├── catchup.md      # Review changes in current branch
 │   └── pr.md           # Prepare and create pull requests
+├── output-styles/      # Output style presets
+│   ├── Linus-mode.md   # Linus Torvalds engineering style
+│   └── tech-mode.md    # Tech mentor mode
 └── skills/             # Skill modules
     ├── confluence-macros/   # Confluence wiki macros
     ├── file-archiving/      # File organization (Johnny.Decimal)
@@ -39,6 +43,13 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 |---------|-------------|
 | `/catchup` | Read all changed files in current git branch and provide a summary |
 | `/pr` | Clean up code, stage changes, and create a pull request |
+
+### Output Styles
+
+| Style | Description |
+|-------|-------------|
+| `Linus-mode` | Linus Torvalds style: KISS/YAGNI principles, direct feedback, fast development |
+| `tech-mode` | Tech mentor mode: in-depth guidance, multi-solution comparison, educational |
 
 ### Skills
 
@@ -58,6 +69,7 @@ This repository contains reusable profiles for [Claude Code](https://claude.com/
 2. Copy `CLAUDE.md` to your project root or `~/.claude/CLAUDE.md` for global use
 3. Copy desired commands to `~/.claude/commands/`
 4. Copy desired skills to `~/.claude/skills/`
+5. Copy desired output styles to `~/.claude/output-styles/`
 
 ### Configuration Highlights
 
@@ -80,6 +92,7 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 
 - **CLAUDE.md** - 全局配置文件，定义工作流、代码规范和 MCP 使用指南
 - **Commands** - 常见开发任务的自定义斜杠命令
+- **Output Styles** - 预设的响应风格（工程模式、导师模式等）
 - **Skills** - 扩展 Claude 能力的专业知识模块
 
 ### 目录结构
@@ -89,6 +102,9 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 ├── commands/           # 自定义命令
 │   ├── catchup.md      # 查看当前分支的变更
 │   └── pr.md           # 准备并创建 Pull Request
+├── output-styles/      # 输出风格预设
+│   ├── Linus-mode.md   # Linus Torvalds 工程风格
+│   └── tech-mode.md    # 技术导师模式
 └── skills/             # 技能模块
     ├── confluence-macros/   # Confluence Wiki 宏
     ├── file-archiving/      # 文件归档 (Johnny.Decimal)
@@ -105,6 +121,13 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 |------|------|
 | `/catchup` | 读取当前 git 分支的所有变更文件并提供摘要 |
 | `/pr` | 清理代码、暂存变更并创建 Pull Request |
+
+### 输出风格
+
+| 风格 | 描述 |
+|------|------|
+| `Linus-mode` | Linus Torvalds 风格：KISS/YAGNI 原则、直接反馈、快速开发 |
+| `tech-mode` | 技术导师模式：深度指导、多方案对比、教育性解释 |
 
 ### 技能
 
@@ -124,6 +147,7 @@ Claude Code 配置、自定义命令和技能的集合，用于增强 AI 辅助�
 2. 将 `CLAUDE.md` 复制到项目根目录，或复制到 `~/.claude/CLAUDE.md` 作为全局配置
 3. 将所需命令复制到 `~/.claude/commands/`
 4. 将所需技能复制到 `~/.claude/skills/`
+5. 将所需输出风格复制到 `~/.claude/output-styles/`
 
 ### 配置亮点
 
